@@ -1,0 +1,8 @@
+A) What is Shared preferences ?
+
+Ans.) Android provides many ways of storing data of an application. One of this way is called Shared Preferences. Shared Preferences allow you to save and retrieve data in the form of key,value pair.
+In order to use shared preferences , you have to call a method getSharedPreferences() that returns a SharedPreference instance pointing to the file that contains the values of preferences.
+
+B) What values can be  saved in SharedPreferences ?
+
+Ans.) A SharedPreferences object points to a file containing key-value pairs and provides simple methods to read and write them. Each SharedPreferences file is managed by the framework and can be private or shared.
